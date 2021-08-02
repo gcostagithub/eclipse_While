@@ -8,11 +8,14 @@ public class Main {
 		// Receber um número enquanto for diferente de zero e ao final mostrar
 		// a soma dos numeros digitados. No while se a condição for falsa para
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Informe um número: ");
 		int x = sc.nextInt();
 
+		
 		int soma = 0;
 		while (x != 0) {
 			soma = soma + x;
+			System.out.print("Informe um número: ");
 			x = sc.nextInt();
 		}
 
